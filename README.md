@@ -22,3 +22,4 @@
 
 ## Notes :
 You **must** have a backup/send folder along with saveconf.sh for it to work. If you just clone the repo without changing anything, it should work flawlessly :).
+Please also note that backup are send unencrypted, this can cause a security issue. I encourage you to encrypt your emails before sending them, see [zeyple](https://github.com/infertux/zeyple).
