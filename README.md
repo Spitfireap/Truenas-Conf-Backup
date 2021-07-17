@@ -14,8 +14,10 @@
  ### Step 2 :
  - Clone this repository in the folder of your choice
  ### Step 3 :
+ - Edit the file saveconf.sh to specify FROM address, and TO address. You can also change the subject and/or the body. Additionally, if you want to keep older backup, you can simple change SAVE="NO" to SAVE="YES" and your backups will be save in /path/to/the/script/backup/send/. 
+ ### Step 4 :
  - On a shell `chmod +x path/to/the/repo/saveconf.sh`
- ### Step 4 : 
+ ### Step 5 : 
  - Add the job to cron (via the GUI or via CLI) :
     * Command : `path/to/the/repo/saveconf.sh`
     * Every : you can choose anything you want, every days, every month or even every minutes ! Config backup won't be kept if no changes are detected...
